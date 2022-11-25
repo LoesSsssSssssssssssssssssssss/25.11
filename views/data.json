@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Новая",
+        "zifra": "1",
+        "tasks": [
+            {
+                "name": "ggaaga",
+                "status": "srochno",
+                "description": "ghjhgjgh",
+                "id": "1"
+            },
+            {
+                "name": "gagga",
+                "status": "nesrochno",
+                "description": "ghjg.",
+                "id": "2"
+            }
+        ],
+        "text": "HAHAHAHAHA"
+    },
+    {
+        "id": 1,
+        "name": "To do",
+        "zifra": "1",
+        "tasks": [
+            {
+                "name": "ggaaga",
+                "status": "srochno",
+                "description": "ghjhgjgh",
+                "id": "1"
+            },
+            {
+                "name": "sdfdsfsd",
+                "status": "nesrochno",
+                "description": "ghjg.",
+                "id": "2"
+            }
+        ],
+        "text": "HAHA"
+    },
+    {
+        "id": 2,
+        "name": "asdas",
+        "zifra": "1",
+        "tasks": [
+            {
+                "name": "ggaaga",
+                "status": "srochno",
+                "description": "ghjhgjgh",
+                "id": "1"
+            },
+            {
+                "name": "gagga",
+                "status": "nesrochno",
+                "description": "ghjg.",
+                "id": "2"
+            }
+        ],
+        "text": "PAMAGITEEEE"
+    }
+]

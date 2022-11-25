@@ -1,0 +1,11 @@
+for n in data
+  div.new
+    div.verh
+      div.red
+      div.task
+        div.text
+          h2.shapka #{n.name}
+          h2.zifra #{n.zifra}
+    include zadacha.pug
+    if n.name == "Новая"
+      include addbutton.pug

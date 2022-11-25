@@ -1,0 +1,400 @@
+/*
+.card {
+    position: absolute;
+    width: 526px;
+    height: 675px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+}
+
+.new {
+    width: 420px;
+    height: 80px;
+}
+
+.border {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.border2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #FF0000;
+}
+
+.border3 {
+    width: 420px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 50px;
+}
+*/
+
+.bg { 
+    background: url("../img/fon.jpg");
+    font-family: 'Comfortaa', cursive;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upleft {
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.upright {
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.red {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #FF0000;
+    width: 420px;
+    height: 10px;
+}
+
+.ye {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #FAFF00;
+    width: 420px;
+    height: 10px;
+}
+
+.green {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #42FF00;
+    width: 420px;
+    height: 10px;
+}
+
+.new {
+    width: 526px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.new2 {
+    width: 526px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.new3 {
+    width: 526px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.task {
+    display: flex;
+    width: 420px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+.verh{
+    margin: 5% auto 0 auto;
+}
+
+.datta {
+    font-size: 10px;
+}
+
+.add {
+    width: 420px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 10%;
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+h1 {
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 58px;
+color: #000000;
+}
+
+h2 {
+    color: #000000;
+}
+
+.zifra{
+    opacity: 0.5;
+}
+
+.text{
+    display: flex;  
+    justify-content: space-between;
+    width: 80%;
+    margin: 2%;
+}
+
+.zadacha {
+    width: 420px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 12% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*////////////////////////////////////////////////*/
+
+.vxod {
+    width: 525px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 150px auto;
+}
+
+.vhod {
+    display: flex;
+    justify-content: center;
+}
+
+.vxod-niz {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.b1 {
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.b1-style {
+    background-color: white;
+    width: 125px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.delete-btn {
+    background-color: white;
+    border: 0px;
+}
+
+.reg-b {
+    margin-right: 6%;
+    margin-top: 6%;
+}
+
+.verhh {
+    margin-top: 3%;
+}
+
+.int {
+    margin-left: 6%;
+}
+
+.int2 {
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+
+.name {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 5% 0% 0% 5%;
+    display: flex;
+}
+
+.name2 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0% 0% 0% 5%;
+}
+
+.graybox {
+    width: 100px;
+    height: 8px;
+    background: rgba(176, 176, 176, 0.5);
+    border-radius: 10px;
+}
+
+.graybox2 {
+    width: 80px;
+    height: 8px;
+    background: rgba(176, 176, 176, 0.5);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.greenkryg {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #24FF00;
+    margin-top: 9%;
+}
+
+.yekryg {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #FAFF00;
+    margin-top: 9%;
+}
+
+.text_clock {
+    width: 115px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 15%;
+}
+
+.kom {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.kom2 {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.inf {
+    display: flex;
+    margin: 2% 0% 0% 5%;
+}
+
+.inform {
+    align-self: center;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.container2 {
+    display: flex;
+}
+
+.kart1 {
+    width: 65px;
+}
+
+.kart2 {
+    width: 63px; 
+    height: 63px;
+}
+
+.kart3 {
+    width: 17px;
+    height: 17px;
+    opacity: 0.65;
+}
+
+.kart4 {
+    width: 18px;
+    height: 18px;
+    opacity: 0.30;
+}
+
+.kart5 {
+    width: 18px;
+    height: 18px;
+    opacity: 0.30;
+}
+
+.kart6 {
+    width: 23px;
+    opacity: 0.4;
+}
+
+/*////////////////////////////////////////////*/
+/*MODAL*/
+/* Модальный (фон) */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% сверху и по центру */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  }
+  
+  /* Кнопка закрытия */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+<button id="myBtn" class="add">Добавить задачу</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div><h5>Название задачи</h5>
+          <input type="text" size="28">
+    </div>
+    <div style="margin-top: 1%;"><h5>Краткое описание</h5>
+          <input type="text" size="28">
+    </div>
+    <div style="margin-top: 1%;">
+    <button style="background-color: white;">Сохранить</button>
+    </div>
+  </div>
+
+</div>
+script(type='text/javascript').
+      function intoJson(id){
+        console.log(id) 
+        }
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
